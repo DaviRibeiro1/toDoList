@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: helvetica;
+  }
+  
+
+  
+.content{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+    form {
+    position:relative;
+    margin: 0 auto;
+  }
+
+    form > input[type="text"]{
+        padding: 5px 50px;
+    }
+
+    form > input[type="button"]{
+        padding: 5px;
+    }
+    
+    ul{
+     position: relative;
+     padding: 0 10px;
+  }
+    
+    ul > li {
+      display: flex;
+      align-items: center;
+      margin: 5px 0 0 0;
+      padding: 5px 5px 5px 10px;
+      list-style: none;
+      border: solid 1px;
+      border-color: black;
+  }
+}
+  
+li > .concluida{
+     margin-left: auto;
+     background: rgb(155, 233, 155);
+     border: none;
+}
+
+li > .concluida:hover{
+    background: rgb(107, 235, 107);
+    cursor: pointer;
+}
+
+
+li > .editar{
+    background: rgb(241, 241, 94);
+    border: none;
+}
+
+li > .editar:hover{
+    background: rgb(253, 253, 66);
+    cursor: pointer;
+}
+
+li > .remover{
+    background: rgb(247, 90, 90);
+    border: none;
+}
+
+li > .remover:hover{
+    background: rgb(247, 60, 60);
+    cursor: pointer;
+}
+
+li > input{
+    padding: 10px;
+    margin: 0 5px;
+}
+  
+li > span{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.alterar{
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.inputNewTask{
+    padding: 5px;
+}
